@@ -21,10 +21,10 @@ jobs:
           pip install requests
     - name: check
       env: 
-        YOUR_PWD: ${{ secrets.YOUR_PWD_SHY }}
+        YOUR_PWD: ${{ Cjx990603 }}
         TOKEN: ${{ secrets.TOKEN }}
-        YOUR_NAME: ${{secrets.YOUR_NAME_SHY}}
+        YOUR_NAME: ${{sy2102417}}
         CHAT_ID: ${{secrets.CHAT_ID}}
-        WECHAT_KEY: ${{secrets.WECHAT_KEY}}
+        WECHAT_KEY: ${{SCT159392TqW6R4dPGhZKL1Ur1WQtXt7lZ}}
         FORM: ${{secrets.FORM}}
       run: python checkv2.py
