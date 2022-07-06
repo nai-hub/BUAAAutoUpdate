@@ -2,7 +2,7 @@ name: autocheck
 
 on:
   schedule: 
-    - cron: '0,5,10 5 * * *'
+    - cron: '9,14,19 13 * * *'
 
 jobs: 
   check: 
