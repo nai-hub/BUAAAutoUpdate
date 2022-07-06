@@ -21,9 +21,9 @@ jobs:
           pip install requests
     - name: check
       env: 
-        YOUR_PWD: ${{ secrets.Cjx990603 }}
+        YOUR_PWD: "Cjx990603"
         TOKEN: ${{ secrets.TOKEN }}
-        YOUR_NAME: ${{secrets.SY2102417}}
+        YOUR_NAME: "SY2102417"
         CHAT_ID: ${{secrets.CHAT_ID}}
-        WECHAT_KEY: ${{secrets.SCT159392TqW6R4dPGhZKL1Ur1WQtXt7lZ}}
+        WECHAT_KEY: "SCT159392TqW6R4dPGhZKL1Ur1WQtXt7lZ"
       run: python in_school3.0.py
