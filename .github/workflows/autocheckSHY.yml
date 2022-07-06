@@ -1,8 +1,6 @@
 name: autocheck
 
 on:
-  push:
-    branches: [ master ]
   schedule: 
     - cron: '15 17 * * *' # UTC->北京时间
 
