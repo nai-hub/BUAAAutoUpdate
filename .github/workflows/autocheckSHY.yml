@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule: 
-    - cron: '33 20 * * *' # UTC->北京时间
+    - cron: '15 17 * * *' # UTC->北京时间
 
 jobs: 
   check: 
