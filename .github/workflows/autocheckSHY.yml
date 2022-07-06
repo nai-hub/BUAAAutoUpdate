@@ -21,7 +21,7 @@ jobs:
           pip install requests
     - name: check
       env: 
-        YOUR_PWD: ${{ "Cjx990603" }}
+        YOUR_PWD: ${{ secrets.Cjx990603 }}
         TOKEN: ${{ secrets.TOKEN }}
         YOUR_NAME: ${{"sy2102417"}}
         CHAT_ID: ${{secrets.CHAT_ID}}
