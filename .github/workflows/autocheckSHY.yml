@@ -26,4 +26,4 @@ jobs:
         YOUR_NAME: "SY2102417"
         CHAT_ID: ${{secrets.CHAT_ID}}
         WECHAT_KEY: "SCT159392TqW6R4dPGhZKL1Ur1WQtXt7lZ"
-      run: python in_school3.0.py
+      run: python checkv2.py
