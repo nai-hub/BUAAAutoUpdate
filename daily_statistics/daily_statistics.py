@@ -10,15 +10,15 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 
-your_name = '统一认证账号'
-your_pwd = '统一认证密码'
+your_name = 'sy2102417'
+your_pwd = 'Cjx990603'
 dir_name = 'C:\\Users\\xxx\\xxx\\xxx\\' #存放数据文件的地址 注意要使用绝对路径
 file_name=dir_name+time.strftime("%m-%d", time.localtime())
 dataBase_name = 'dateBase.xlsx'
 
-msg_from = 'xxx@qq.com'  # 发送方邮箱
-passwd = 'xxxxx'  # 填入发送方邮箱的授权码
-msg_to = 'xxxx@qq.com'  # 收件人邮箱
+msg_from = 'sy2102417@buaa.edu.cn'  # 发送方邮箱
+passwd = '159357zaqws'  # 填入发送方邮箱的授权码
+msg_to = '1473233397@qq.com'  # 收件人邮箱
 
 
 def buaaLogin(user_name, password):
