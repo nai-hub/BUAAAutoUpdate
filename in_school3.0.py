@@ -3,9 +3,9 @@ import re
 import time
 
 ###########用户需要更改的部分###############
-your_name = 'sy2102403'
-your_pwd = 'as19980808'
-wechat_key = 'Aug8_LFQ'
+your_name = ''
+your_pwd = ''
+wechat_key = ''
 form_data = ''
 
 ###########用户需要更改的部分###############
