@@ -1,9 +1,9 @@
 name: autocheck
 
 on:
-  workflow_dispatch: # 手动触发
+  push:
   schedule: 
-    - cron: '50 20 * * *'
+    - cron: '57 20 * * *'
 
 jobs: 
   check: 
