@@ -1,6 +1,7 @@
 name: autocheck
 
 on:
+  workflow_dispatch：#手动触发
   schedule: 
     - cron: '50 20 * * *' # UTC->北京时间
 
