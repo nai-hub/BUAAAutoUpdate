@@ -7,8 +7,8 @@ import time
 import os
 import json
 
-your_name = os.environ["YOUR_NAME"]
-your_pwd = os.environ["YOUR_PWD"]
+your_name = os.environ["陈俊旭"]
+your_pwd = os.environ["Cjx990603"]
 wechat_key = os.environ["WECHAT_KEY"] #not must
 token = os.environ["TOKEN"]#not must
 chat_id = os.environ["CHAT_ID"]#not must
